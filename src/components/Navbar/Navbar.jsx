@@ -29,7 +29,7 @@ export const Navbar = () => {
             <div className={styles.navContainer}>
                 <a href="#hero" className={styles.logo}>
                     <Sparkles className="w-6 h-6 text-[#5B4B8A]" />
-                    <span className="font-heading">ILUZE EAR</span>
+                    <span className="font-heading">ILUZE EAR creative</span>
                 </a>
 
                 {/* Desktop Nav */}
