@@ -1,0 +1,39 @@
+.section {
+  padding: 6rem 1.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background: #FFF9EF;
+  border: var(--border-artistic);
+  padding: 2rem;
+  box-shadow: var(--shadow-retro);
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.authorGroup {
+  border-top: 2px solid var(--color-primary);
+  padding-top: 0.75rem;
+}

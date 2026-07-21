@@ -1,0 +1,65 @@
+.section {
+  padding: 6rem 1.5rem;
+  background-color: rgba(91, 75, 138, 0.08);
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #FFF9EF;
+  border: var(--border-artistic);
+  box-shadow: var(--shadow-retro);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1.25rem;
+  border-bottom: 3px solid var(--color-primary);
+  color: #FFF;
+}
+
+.serviceTitle {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #171717;
+}
+
+.body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.desc {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.deliverables {
+  border-top: 2px stroke #DDD;
+  padding-top: 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}

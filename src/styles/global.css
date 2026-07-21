@@ -1,0 +1,21 @@
+@import './variables.css';
+@import './reset.css';
+@import './animation.css';
+
+
+.font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+.retro-box {
+  background: #FFF9EF;
+  border: var(--border-artistic);
+  box-shadow: var(--shadow-retro);
+  transition: all 0.2s var(--transition-smooth);
+}
+
+.retro-box:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: var(--shadow-retro-hover);
+}

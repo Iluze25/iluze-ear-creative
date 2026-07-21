@@ -1,0 +1,20 @@
+:root {
+  /* Color Palette */
+  --bg-main: #F7E7CE;
+  --color-primary: #171717;
+  --color-secondary: #5B4B8A;
+  --color-accent: #7A9B76;
+  --color-highlight: #D8B44A;
+
+  /* Fonts */
+  --font-heading: 'Syne', 'Impact', sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Shadows & Borders */
+  --border-artistic: 3px solid var(--color-primary);
+  --shadow-retro: 5px 5px 0px var(--color-primary);
+  --shadow-retro-hover: 8px 8px 0px var(--color-primary);
+
+  /* Transitions */
+  --transition-smooth: cubic-bezier(0.25, 1, 0.5, 1);
+}
