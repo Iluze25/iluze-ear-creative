@@ -10,7 +10,7 @@ export const Experience = () => {
             <div className={styles.container}>
                 <SectionTitle
                     tag="Timeline"
-                    title="Artist Journey"
+                    title="Perjalanan Berkarya"
                     subtitle="Jejak langkah eksplorasi visual dan pameran."
                 />
 

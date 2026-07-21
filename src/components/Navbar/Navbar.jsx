@@ -9,11 +9,12 @@ export const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     const navItems = [
-        { name: 'Home', path: '#hero' },
-        { name: 'About', path: '#about' },
-        { name: 'Projects', path: '#projects' },
-        { name: 'Services', path: '#services' },
-        { name: 'Contact', path: '#contact' },
+        { name: 'Beranda', path: '#hero' },
+        { name: 'Tentang', path: '#about' },
+        { name: 'Proyek', path: '#projects' },
+        { name: 'Perjalanan', path: '#experience' },
+        { name: 'Servis', path: '#services' },
+        { name: 'Kontak', path: '#contact' },
     ];
 
     const handleScroll = (id) => {

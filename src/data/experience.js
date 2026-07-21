@@ -1,20 +1,20 @@
 export const experienceData = [
-  {
+   {
     year: '2025 - Present',
-    role: 'Lead Visual Artist & Muralist',
-    organization: 'Iluze Ear Studio',
-    description: 'Mengerjakan berbagai proyek mural skala besar untuk ruang komersial, kafe, dan pameran independen.'
+    role: 'Founder & Visual Artist',
+    organization: 'ILUZE EAR',
+    description: 'Membangun identitas karya melalui sketsa realistis dan pengembangan mural sebagai media penceritaan visual.'
   },
   {
-    year: '2023 - 2024',
-    role: 'Editorial Illustrator',
-    organization: 'Raw Art Collective',
-    description: 'Membuat seri karya sketsa independen dan kolaborasi visual storytelling untuk publikasi seni Eropa-Asia.'
+    year: '2021 - 2025',
+    role: 'Realistic Portrait Artist',
+    organization: 'Independent Practice',
+    description: 'Mengembangkan kemampuan menggambar potret realistis dengan fokus pada detail wajah, karakter, dan ekspresi.'
   },
   {
-    year: '2021 - 2022',
-    role: 'Junior Illustrator & Street Artist',
-    organization: 'Underground Canvas Project',
-    description: 'Mulai mengeksplorasi ruang publik melalui eksperimen mural gandum dan lukisan jalanan.'
+    year: 'Early Exploration',
+    role: 'Visual Art Exploration',
+    organization: 'Personal Project',
+    description: 'Mengeksplorasi seni gambar tangan dan mural melalui berbagai eksperimen media dan ruang.'
   }
 ];

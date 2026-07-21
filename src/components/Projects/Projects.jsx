@@ -17,8 +17,8 @@ export const Projects = () => {
             <div className={styles.container}>
                 <SectionTitle
                     tag="Portfolio Gallery"
-                    title="Selected Projects"
-                    subtitle="Kumpulan lukisan mural, sketsa karakter, dan eksplorasi visual."
+                    title="Karya Pilihan"
+                    subtitle="Kumpulan lukisan mural, sketsa realis, dan eksplorasi visual."
                 />
 
                 {/* Filter Buttons */}

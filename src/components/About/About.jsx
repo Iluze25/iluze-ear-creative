@@ -2,14 +2,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { SectionTitle } from '../UI/SectionTitle';
 import styles from './About.module.css';
+import { projectsData } from "../../data/projects.js"
 
 export const About = () => {
+    const totalProjects = projectsData.length
+    const totalMural = projectsData.filter((project) => project.category === "Mural").length
+    const totalSketch = projectsData.filter((project) => project.category === "Sketch").length
     return (
         <section id="about" className={styles.aboutSection}>
             <div className={styles.container}>
                 <SectionTitle
                     tag="Artist Statement"
-                    title="Who is Iluze Ear?"
+                    title="Siapakah ILUZE EAR itu ?"
                     subtitle="Seorang pengembara visual yang melihat tembok kota dan lembaran kosong sebagai arena bercerita."
                 />
 
@@ -34,19 +38,19 @@ export const About = () => {
                         viewport={{ once: true }}
                     >
                         <p>
-                            Halo, saya <strong>Iluze Ear</strong>. Fokus karya saya berakar pada eksplorasi seni mural, sketsa analog, dan penceritaan visual berbasis narasi lokal.
+                            Halo saya <strong>Aditya Ardiansyah</strong>, seniman di balik <strong>Iluze Ear</strong>. Karya saya berfokus pada eksplorasi mural dan sketsa realistis sebagai media untuk menangkap karakter, cerita, dan emosi melalui garis serta ruang.
                         </p>
                         <p>
-                            Pendekatan saya mengombinasikan tekstur organik, garis tinta yang ekspresif, dan eksperimen ruang. Saya percaya bahwa seni publik atau ilustrasi editorial harus memiliki jiwa handmade yang tidak kaku, jujur, dan berani tampil beda dari estetika digital komersial yang terlalu halus.
+                            Dalam setiap karya, saya menggabungkan ketelitian detail, tekstur handmade, dan pendekatan visual yang personal. Saya percaya bahwa sebuah karya tidak hanya hadir untuk memperindah ruang, tetapi juga membawa identitas, pesan, dan pengalaman yang dapat dirasakan oleh orang yang melihatnya.
                         </p>
                         <div className={styles.statsGrid}>
                             <div className={styles.statItem}>
-                                <span className="font-heading text-3xl font-extrabold">35+</span>
-                                <span className="text-sm">Public Murals</span>
+                                <span className="font-heading text-3xl font-extrabold">{totalMural}+</span>
+                                <span className="text-sm">Mural Publik</span>
                             </div>
                             <div className={styles.statItem}>
-                                <span className="font-heading text-3xl font-extrabold">120+</span>
-                                <span className="text-sm">Sketches & Artworks</span>
+                                <span className="font-heading text-3xl font-extrabold">{totalSketch}+</span>
+                                <span className="text-sm">Sketsa & Karya Seni</span>
                             </div>
                         </div>
                     </motion.div>
