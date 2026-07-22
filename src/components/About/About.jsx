@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionTitle } from '../UI/SectionTitle';
 import styles from './About.module.css';
 import { projectsData } from "../../data/projects.js"
+import iluzeear from "./iluzeear.jpg"
 
 export const About = () => {
     const totalProjects = projectsData.length
@@ -25,7 +26,7 @@ export const About = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=800&auto=format&fit=crop"
+                            src={iluzeear}
                             alt="Iluze Ear Studio"
                             className={styles.artistPhoto}
                         />
