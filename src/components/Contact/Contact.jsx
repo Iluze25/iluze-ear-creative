@@ -20,7 +20,7 @@ export const Contact = () => {
                 <SectionTitle
                     tag="Get in Touch"
                     title="Let's Create Together"
-                    subtitle="Punya proyek mural atau komisi ilustrasi? Mari berdiskusi!"
+                    subtitle="Punya proyek mural atau ingin mengabadikan seseorang melalui sketsa realistis? Mari berdiskusi"
                 />
 
                 <div className={styles.grid}>
