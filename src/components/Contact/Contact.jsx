@@ -6,12 +6,12 @@ import styles from './Contact.module.css';
 import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
 
 export const Contact = () => {
-    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    const [formData, setFormData] = useState({ name: '', email: '', message: '', whatsapp: '' });
 
     const handleSubmit = (e) => {
         e.preventDefault();
         alert('Terima kasih! Pesan Anda telah terkirim.');
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', email: '', message: '', whatsapp: '' });
     };
 
     return (
@@ -52,7 +52,7 @@ export const Contact = () => {
                     {/* Form */}
                     <form className={styles.form} onSubmit={handleSubmit}>
                         <div className={styles.field}>
-                            <label htmlFor="name">Your Name</label>
+                            <label htmlFor="name">Nama Kamu</label>
                             <input
                                 id="name"
                                 type="text"
@@ -63,7 +63,7 @@ export const Contact = () => {
                             />
                         </div>
                         <div className={styles.field}>
-                            <label htmlFor="email">Email Address</label>
+                            <label htmlFor="email">Email</label>
                             <input
                                 id="email"
                                 type="email"
@@ -74,7 +74,18 @@ export const Contact = () => {
                             />
                         </div>
                         <div className={styles.field}>
-                            <label htmlFor="message">Project Detail / Message</label>
+                            <label htmlFor='whatsapp'>Whatsapp</label>
+                            <input
+                                id="whatsapp"
+                                type="tel"
+                                required
+                                value={formData.whatsapp}
+                                onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
+                                placeholder="Cth : +6283176470171"
+                            />
+                        </div>
+                        <div className={styles.field}>
+                            <label htmlFor="message">Detail Project / Pesae</label>
                             <textarea
                                 id="message"
                                 rows={4}
@@ -85,7 +96,7 @@ export const Contact = () => {
                             />
                         </div>
                         <Button type="submit" variant="primary">
-                            Send Message <Send size={18} />
+                            Kirim Pesan <Send size={18} />
                         </Button>
                     </form>
                 </div>
