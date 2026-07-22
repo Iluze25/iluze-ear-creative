@@ -1,6 +1,6 @@
 export const experienceData = [
    {
-    year: '2025 - Present',
+    year: '2025 - Sekarang',
     role: 'Founder & Visual Artist',
     organization: 'ILUZE EAR',
     description: 'Membangun identitas karya melalui sketsa realistis dan pengembangan mural sebagai media penceritaan visual.'
