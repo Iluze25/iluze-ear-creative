@@ -6,7 +6,7 @@ export const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <p className="font-heading font-extrabold text-lg">ILUZE EAR creative</p>
-                <p className="text-sm font-medium">© 2026 Iluze Ear — Visual Artist & Muralist. All Rights Reserved.</p>
+                <p className="text-sm font-medium">© 2026 Iluze Ear — Mural Artist & Realistic Sketch Artist. All Rights Reserved.</p>
             </div>
         </footer>
     );

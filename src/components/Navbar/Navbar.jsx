@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import styles from './Navbar.module.css';
+import { PiPaintBrushBroadBold } from "react-icons/pi";
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ export const Navbar = () => {
         <header className={styles.header}>
             <div className={styles.navContainer}>
                 <a href="#hero" className={styles.logo}>
-                    <Sparkles className="w-6 h-6 text-[#5B4B8A]" />
+                    <PiPaintBrushBroadBold className="w-6 h-6 text-[#5B4B8A]" />
                     <span className="font-heading">ILUZE EAR creative</span>
                 </a>
 
