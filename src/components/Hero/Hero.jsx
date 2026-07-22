@@ -20,7 +20,7 @@ export const Hero = () => {
                     </div>
 
                     <h1 className={`font-heading ${styles.heading}`}>
-                        Visual Artist Creating Stories Through <span className={styles.highlightText}>Walls and Lines</span>
+                        Visual Artist Creating Stories Through adit <span className={styles.highlightText}>Walls and Lines</span>
                     </h1>
 
                     <p className={styles.subheading}>
