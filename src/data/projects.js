@@ -1,14 +1,15 @@
-// "Mural", sketch
+// "Mural", Sketch
+import AiSopiah from '../assets/Ai Sopiah.jpg'
 export const projectsData = [
-  // {
-  //   id: 'mural-01',
-  //   title: 'Urban Myth & Concrete Dreams',
-  //   category: 'Mural',
-  //   year: '2025',
-  //   client: 'Suburban Coffee Co.',
-  //   description: 'Mural dinding outdoor seluas 45m² menggabungkan elemen mitologi lokal dengan gaya surealis retro.',
-  //   image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=800&auto=format&fit=crop',
-  //   tags: ['Outdoor', 'Spray & Acrylic', 'Large Scale']
-  // }
+  {
+     id: 'sketch-01',
+     title: 'Hijab Portrait',
+     category: 'Sketch',
+     year: '2026',
+     client: 'Gift Artwork',
+     description: 'Studi potret wajah yang menitikberatkan pada ketelitian anatomi, pencahayaan, dan teknik arsir menggunakan pensil grafit.',
+     image: AiSopiah,
+     tags: ['Portrait', 'Graphite', 'Hand Drawing']
+  }
 
 ];
