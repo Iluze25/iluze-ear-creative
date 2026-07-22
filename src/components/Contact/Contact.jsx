@@ -53,7 +53,7 @@ export const Contact = () => {
                                 required
                                 value={formData.name}
                                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                placeholder="Ex: John Doe"
+                                placeholder="Cth : Aditya Ardiansyah"
                             />
                         </div>
                         <div className={styles.field}>
@@ -64,7 +64,7 @@ export const Contact = () => {
                                 required
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                placeholder="Ex: adityaardiansyah2003@gmail.com"
+                                placeholder="Cth : adityaardiansyah2003@gmail.com"
                             />
                         </div>
                         <div className={styles.field}>
