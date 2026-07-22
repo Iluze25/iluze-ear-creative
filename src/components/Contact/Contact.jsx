@@ -3,6 +3,7 @@ import { SectionTitle } from '../UI/SectionTitle';
 import { Button } from '../UI/Button';
 import { Mail, Send } from 'lucide-react';
 import styles from './Contact.module.css';
+import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
 
 export const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -25,16 +26,21 @@ export const Contact = () => {
                 <div className={styles.grid}>
                     {/* Info Card */}
                     <div className={styles.infoCard}>
-                        <h3 className="font-heading text-2xl font-extrabold mb-4">ILUZE EAR</h3>
+                        <h3 className="font-heading text-2xl font-extrabold mb-4">ILUZE EAR CREATIVE</h3>
                         <p className="mb-6 text-sm">
                             Tersedia untuk komisi mural publik/privat, ilustrasi majalah, dan proyek kreatif kustom.
                         </p>
 
                         <div className={styles.socialList}>
                             <a href="https://instagram.com" target="_blank" rel="noreferrer" className={styles.socialItem}>
+                                <FaInstagram size={20} /> Instagram
+                            </a>
+                            <a href="https://www.tiktok.com/@iluzeear" target="_blank" rel="noreferrer" className={styles.socialItem}>
+                                <FaTiktok size={20} /> Tiktok
 
                             </a>
-                            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={styles.socialItem}>
+                            <a href="https://wa.me/6283176470171" target="_blank" rel="noreferrer" className={styles.socialItem}>
+                                <FaWhatsapp size={20} /> +62 831 7647 0171
 
                             </a>
                             <a href="iluzeear@gmail.com" className={styles.socialItem}>
