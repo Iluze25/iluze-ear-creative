@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Brush, PenTool } from 'lucide-react';
 import { Button } from '../UI/Button';
 import styles from './Hero.module.css';
-import AiSopiah from '../../Assets/Ai Sopiah.jpg'
+import AiSopiah from '../../assets/Ai Sopiah.jpg'
 
 export const Hero = () => {
     return (
