@@ -13,7 +13,7 @@ export const Navbar = () => {
         { name: 'Tentang', path: '#about' },
         { name: 'Proyek', path: '#projects' },
         { name: 'Perjalanan', path: '#experience' },
-        { name: 'Servis', path: '#services' },
+        { name: 'Layanan', path: '#services' },
         { name: 'Kontak', path: '#contact' },
     ];
 

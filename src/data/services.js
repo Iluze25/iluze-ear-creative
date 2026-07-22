@@ -1,30 +1,46 @@
 export const servicesData = [
   {
     id: 'mural',
-    title: 'Custom Mural Art',
-    description: 'Pengubahan ruang publik atau interior komersial menjadi karya seni berdampak besar yang memikat perhatian.',
-    deliverables: ['Site Measurement & Concept', 'Digital Mockup', 'Execution with Weather-Proof Paint'],
+    title: 'Jasa Mural Custom',
+    description: 'Mengubah dinding kosong menjadi karya seni visual yang memiliki karakter untuk ruang usaha, rumah, dan ruang publik.',
+    deliverables: [
+      'Survey & Pengukuran Area',
+      'Konsep Visual dan Sketsa Awal',
+      'Pengerjaan Mural Manual'
+    ],
     accentColor: '#D8B44A'
   },
   {
     id: 'sketch',
-    title: 'Sketch & Editorial Illustration',
-    description: 'Ilustrasi sketsa tangan berkarakter kuat untuk buku, album musik, merchandise, atau publikasi majalah.',
-    deliverables: ['Original Hand-Drawn Sketch', 'High-Res Digital Scan', 'Vector Conversion'],
+    title: 'Sketsa Potret Realistis',
+    description: 'Membuat karya sketsa manual dari foto dengan detail wajah, proporsi, dan karakter personal.',
+    deliverables: [
+      'Sketsa Original di Kertas',
+      'Teknik Pensil & Shading Detail',
+      'Dokumentasi Digital Karya'
+    ],
     accentColor: '#7A9B76'
   },
   {
-    id: 'wall-decor',
-    title: 'Wall Decoration & Accent Painting',
-    description: 'Desain pola estetis dan elemen artistik untuk dinding kafe, kantor, atau hunian pribadi.',
-    deliverables: ['Custom Palette Selection', 'Texture Overlay', 'Artistic Finishes'],
+    id: 'illustration',
+    title: 'Ilustrasi Manual',
+    description: 'Pembuatan ilustrasi tangan dengan gaya artistik untuk kebutuhan personal maupun kreatif.',
+    deliverables: [
+      'Konsep Gambar',
+      'Proses Sketsa Manual',
+      'Hasil Karya Final'
+    ],
     accentColor: '#5B4B8A'
   },
   {
-    id: 'brand-art',
-    title: 'Brand Visual Identity Art',
-    description: 'Sentuhan seni organik buatan tangan untuk maskot brand, merchandise, dan kemasan produk.',
-    deliverables: ['Character Concepts', 'Packaging Illustration', 'Commercial Licensing'],
-    accentColor: '#171717'
+    id: 'wall-art',
+    title: 'Dekorasi Seni Dinding',
+    description: 'Menciptakan elemen visual pada dinding untuk memperkuat suasana cafe, ruang kerja, maupun hunian.',
+    deliverables: [
+      'Pemilihan Konsep Visual',
+      'Penyesuaian Warna dan Komposisi',
+      'Finishing Karya'
+    ],
+    accentColor: '#7c7979'
   }
 ];

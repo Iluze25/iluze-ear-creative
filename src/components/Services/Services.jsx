@@ -10,7 +10,7 @@ export const Services = () => {
             <div className={styles.container}>
                 <SectionTitle
                     tag="Offerings"
-                    title="Services & Commissions"
+                    title="Jasa & Pesanan Karya"
                     subtitle="Layanan seni komersial & kustomisasi dekoratif."
                 />
 
