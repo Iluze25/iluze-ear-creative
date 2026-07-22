@@ -48,12 +48,14 @@ export const Projects = () => {
                                 className={styles.card}
                             >
                                 <div className={styles.imageWrapper}>
-                                    <img src={project.image} alt={project.title} className={styles.image} />
+                                    <img src={project.image} alt={project.title} className={styles.image} draggable="false"
+                                        onContextMenu={(e) => e.preventDefault()} />
                                     <span className={styles.categoryBadge}>{project.category}</span>
                                 </div>
                                 <div className={styles.cardBody}>
                                     <div className="flex justify-between items-center mb-2">
                                         <span className="text-sm font-bold text-[#5B4B8A]">{project.year}</span>
+                                        ~
                                         <span className="text-xs font-semibold px-2 py-0.5 bg-amber-200 border border-black">{project.client}</span>
                                     </div>
                                     <h3 className={`font-heading ${styles.title}`}>{project.title}</h3>
