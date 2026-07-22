@@ -95,6 +95,8 @@
   box-shadow: var(--shadow-retro);
   transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.2s ease;
   cursor: pointer;
+  background-color: var(--color-primary);
+  color: #FFF9EF;
 }
 
 .button:hover {

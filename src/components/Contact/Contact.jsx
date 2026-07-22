@@ -119,7 +119,7 @@ export const Contact = () => {
                                 placeholder="Ceritakan detail lokasi mural, ukuran, atau proyek ilustrasi Anda..."
                             />
                         </div>
-                        <button type="submit" variant="primary">
+                        <button className={styles.button} type="submit" variant="primary">
                             Kirim Pesan <Send size={18} />
                         </button>
                     </form>
