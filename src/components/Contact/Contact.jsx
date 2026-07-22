@@ -4,15 +4,39 @@ import { Button } from '../UI/Button';
 import { Mail, Send } from 'lucide-react';
 import styles from './Contact.module.css';
 import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa6";
+import { supabase } from "../../lib/supabase.js"
 
 export const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '', whatsapp: '' });
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        alert('Terima kasih! Pesan Anda telah terkirim.');
-        setFormData({ name: '', email: '', message: '', whatsapp: '' });
-    };
+    // Mengirim data ke database
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        console.log("HANDLE SUBMIT JALAN")
+
+        const { data, error } = await supabase
+            .from("contacts")
+            .insert([
+                {
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message,
+                    whatsapp: formData.whatsapp
+                }
+            ])
+            .select()
+
+        console.log("DATA:", data)
+        console.log("ERROR:", error)
+
+        if (error) {
+            alert(error.message)
+            return
+        }
+
+        alert("Pesan Berhasil Dikirim")
+    }
 
     return (
         <section id="contact" className={styles.section}>
@@ -95,9 +119,9 @@ export const Contact = () => {
                                 placeholder="Ceritakan detail lokasi mural, ukuran, atau proyek ilustrasi Anda..."
                             />
                         </div>
-                        <Button type="submit" variant="primary">
+                        <button type="submit" variant="primary">
                             Kirim Pesan <Send size={18} />
-                        </Button>
+                        </button>
                     </form>
                 </div>
             </div>
