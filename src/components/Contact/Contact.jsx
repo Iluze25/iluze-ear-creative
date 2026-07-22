@@ -37,8 +37,8 @@ export const Contact = () => {
                             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={styles.socialItem}>
 
                             </a>
-                            <a href="mailto:contact@iluzeear.com" className={styles.socialItem}>
-                                <Mail size={20} /> contact@iluzeear.com
+                            <a href="iluzeear@gmail.com" className={styles.socialItem}>
+                                <Mail size={20} /> iluzeear@gmail.com
                             </a>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                                 required
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                placeholder="Ex: john@example.com"
+                                placeholder="Ex: adityaardiansyah2003@gmail.com"
                             />
                         </div>
                         <div className={styles.field}>
