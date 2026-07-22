@@ -46,9 +46,11 @@ export const Hero = () => {
                 >
                     <div className={styles.heroCard}>
                         <img
-                            src={AiSopiah}      
+                            src={AiSopiah}
                             alt="Iluze Ear Artwork"
                             className={styles.heroImage}
+                            draggable="false"
+                            onContextMenu={(e) => e.preventDefault()}
                         />
                         <div className={styles.floatingBadge}>
                             <PenTool size={20} className="text-[#171717]" />
