@@ -94,7 +94,7 @@ export const Contact = () => {
                                 required
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                placeholder="Cth : adityaardiansyah2003@gmail.com"
+                                placeholder="Cth : iluzeear@gmail.com"
                             />
                         </div>
                         <div className={styles.field}>
