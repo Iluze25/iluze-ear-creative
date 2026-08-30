@@ -52,7 +52,7 @@ export const Contact = () => {
                     <div className={styles.infoCard}>
                         <h3 className="font-heading text-2xl font-extrabold mb-4">ILUZE EAR CREATIVE</h3>
                         <p className="mb-6 text-sm">
-                            Tersedia untuk komisi mural publik/privat, ilustrasi majalah, dan proyek kreatif kustom.
+                            Menerima jasa mural untuk usaha, hunian, dan ruang publik, dari konsep visual hingga pengerjaan mural langsung di lokasi.
                         </p>
 
                         <div className={styles.socialList}>
