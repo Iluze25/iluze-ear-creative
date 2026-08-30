@@ -31,7 +31,7 @@ export const Navbar = () => {
             <div className={styles.navContainer}>
                 <a href="#hero" className={styles.logo}>
                     <PiPaintBrushBroadBold className="w-6 h-6 text-[#5B4B8A]" />
-                    <span className="font-heading">ILUZE EAR creative</span>
+                    <span className="font-heading">ILUZE EAR creative | Tasikmalaya</span>
                 </a>
 
                 {/* Desktop Nav */}

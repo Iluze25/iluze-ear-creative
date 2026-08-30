@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionTitle } from '../UI/SectionTitle';
 import styles from './About.module.css';
 import { projectsData } from "../../data/projects.js"
-import iluzeear from "./iluzeear.jpg"
+import iluzeear from "../../assets/iluzeear.jpg"
 
 export const About = () => {
     const totalProjects = projectsData.length
@@ -39,7 +39,7 @@ export const About = () => {
                         viewport={{ once: true }}
                     >
                         <p>
-                            Halo saya <strong>Aditya Ardiansyah</strong>, seniman di balik <strong>Iluze Ear</strong>. Karya saya berfokus pada eksplorasi mural dan sketsa realistis sebagai media untuk menangkap karakter, cerita, dan emosi melalui garis serta ruang.
+                            Halo saya <strong>Aditya Ardiansyah</strong> Saya berasal dari Jamanis Tasikmalya, seniman di balik <strong>Iluze Ear</strong>. Karya saya berfokus pada eksplorasi mural dan sketsa realistis sebagai media untuk menangkap karakter, cerita, dan emosi melalui garis serta ruang.
                         </p>
                         <p>
                             Dalam setiap karya, saya menggabungkan ketelitian detail, tekstur handmade, dan pendekatan visual yang personal. Saya percaya bahwa sebuah karya tidak hanya hadir untuk memperindah ruang, tetapi juga membawa identitas, pesan, dan pengalaman yang dapat dirasakan oleh orang yang melihatnya.

@@ -56,11 +56,11 @@ export const Contact = () => {
                         </p>
 
                         <div className={styles.socialList}>
-                            <a href="https://instagram.com" target="_blank" rel="noreferrer" className={styles.socialItem}>
-                                <FaInstagram size={20} /> Instagram
+                            <a href="https://www.instagram.com/iluze_ear.creative/" target="_blank" rel="noreferrer" className={styles.socialItem}>
+                                <FaInstagram size={20} /> @iluze_ear.creative
                             </a>
                             <a href="https://www.tiktok.com/@iluzeear" target="_blank" rel="noreferrer" className={styles.socialItem}>
-                                <FaTiktok size={20} /> Tiktok
+                                <FaTiktok size={20} /> @iluzeear
 
                             </a>
                             <a href="https://wa.me/6283176470171" target="_blank" rel="noreferrer" className={styles.socialItem}>
