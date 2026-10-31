@@ -7,6 +7,7 @@ import SilviPulpen from "../assets/SilviPulpen.jpg";
 import Riswan from "../assets/SketsaRiswan.jpg";
 import SketsaPulpen from "../assets/SketsaPulpen.jpg";
 import AlbertEinstein from "../assets/AlbertEinsteinMural.webp";
+import PersibGraff from "../assets/PersibGraff.jpg"
 
 export const projectsData = [
   {
@@ -99,4 +100,16 @@ export const projectsData = [
     image: AlbertEinstein,
     tags: ["Portrait", "Brush", "Mural"],
   },
+  {
+    id: "mural-04",
+    title: "Persib",
+    category: "Mural",
+    year: "2026",
+    client: "Init Az",
+    description:
+      "todo graffiti yang dizinkan oleh pemilik ruangan, ukuran 6,21 m pembuatannya sangat singkat karena terbiasa dengan graffiti",
+    image: PersibGraff,
+    tags: ["Graffiti", "Brush", "Mural"],
+  },
+  
 ];
